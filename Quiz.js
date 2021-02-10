@@ -40,6 +40,8 @@ class Quiz{
               else fill("red");
               display_position+=20
                 textSize(15);
+                text("Result of the Quiz",width/3,75)
+                text("And the answer is '3'.",width/3,300)
                 text("Note:The people those who are correct they'll appear green in color.",width/6,100)
                  text(allContestants[plr].name + ": " + allContestants[plr].answer,120,display_position)
                   } 
